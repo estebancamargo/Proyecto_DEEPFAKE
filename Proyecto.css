@@ -1,0 +1,157 @@
+body {
+    background-color: #000000;
+    margin: 0;
+}
+
+.ContenedorIA{
+    Display: Flex;
+    gap: 20px;
+}
+
+.IA1, .IA2 {
+    background-color: #3a1512;
+    Flex: 1;
+    text-align: center;
+    width: 400px;
+    margin: auto;
+    margin-top: 20px;
+    border: 3px solid #EB6154;
+    color: aliceblue;
+}
+
+p {
+    color: aliceblue;
+}   
+
+.encabezado {
+    color: rgb(252, 251, 250);
+    display: flex;
+    padding: 14px 24px;
+    align-items: center;
+    justify-content:space-between;
+    background-color:  #141413;
+    margin: 0;
+}
+
+nav a{
+    color: aliceblue;
+}
+
+.contenedor {
+    color:aliceblue;
+    padding: 14px 24px;
+}
+.tituloDos {
+    font-size: 50px;
+}
+
+nav {
+    display: flex;    
+    gap: 80px;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+.tarjeta {
+    background-color: rgb(5, 5, 5);
+    Flex: 1;
+    text-align: center;
+    width: 400px;
+    margin: auto;
+    margin-top: 20px;
+    color: aliceblue;
+    overflow: hidden
+}
+.carrusel{
+    Display: Flex;
+    gap: 20px;
+    color: rgb(252, 251, 250);
+    display: flex;
+    padding: 14px 24px;
+    align-items: center;
+    justify-content:space-between;
+    background-color:  #141413;
+}
+.tarjeta a{
+    text-decoration: none;
+    color: white;
+}
+.subtitulo {
+    color: #EB6154;
+    display: inline-block;
+    border-bottom: 3px solid #EB6154;
+}
+
+.botones-hero {
+    display: flex;
+    gap: 12px;
+    margin-top: 20px;
+}
+
+.btn-primario {
+    background-color: #EB6154;
+    color: white;
+    text-decoration: none;
+    padding: 12px 22px;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+.btn-secundario {
+    background-color: transparent;
+    color: white;
+    text-decoration: none;
+    padding: 12px 22px;
+    border-radius: 8px;
+    border: 1px solid #555;
+    font-weight: bold;
+}
+
+
+@media (max-width: 768px) {
+    .encabezado {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 12px;
+    }
+
+    nav {
+        gap: 20px;
+        flex-wrap: wrap;
+    }
+
+    .tituloDos {
+        font-size: 32px;
+    }
+
+    .carrusel {
+        flex-direction: column;
+    }
+
+    .tarjeta {
+        width: 90%;
+        margin: 10px auto;
+    }
+
+    .ContenedorIA {
+        flex-direction: column;
+    }
+
+    .IA1, .IA2 {
+        width: 90%;
+    }
+
+    .botones-hero {
+        flex-direction: column;
+    }
+}
+
+.ejemplo{
+    Display: Flex;
+    gap: 20px;
+    color: rgb(252, 251, 250);
+    display: flex;
+    padding: 14px 24px;
+    align-items: center;
+    justify-content:space-between;
+    background-color:  #141413;
+}

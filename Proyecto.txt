@@ -1,0 +1,33 @@
+deepfake
+
+Que es?
+
+Un deepfake (o ultrafalso) es un contenido de video, audio o imagen creado o 
+modificado mediante inteligencia artificial que simula de manera realista que 
+una persona real dice o hace algo que nunca ocurrió. La palabra combina los 
+términos en inglés deep learning (aprendizaje profundo) y fake (falso)
+
+
+Como identificarlo?
+
+Para saber si un video o imagen es un deepfake, observa detalles físicos como un 
+parpadeo extraño o ausente, fallos en la iluminación o reflejos en gafas, bordes 
+borrosos alrededor del cuello o la cara, y problemas de sincronización en los 
+labios o la voz.
+
+Como prevenir el deepfake
+Utilice la configuración de privacidad en todas las cuentas en línea. Restrinja el
+ acceso a cuentas de redes sociales que contengan videos o imágenes suyas para
+ reducir las oportunidades de replicar su imagen.
+
+
+La inteligencia artificial generativa es un tipo de tecnología capaz de crear contenido 
+nuevo y original —como textos, imágenes, música o código— a partir de las instrucciones 
+de un usuario y de los patrones que aprendió al entrenarse con grandes volúmenes de datos
+ previos.
+
+Cómo Funciona                                               
+Usa redes neuronales profundas.
+Analiza datos masivos previos.
+Encuentra reglas y patrones ocultos.
+Crea respuestas únicas por probabilidad.
