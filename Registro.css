@@ -169,6 +169,13 @@ nav {
     flex-direction: column;
     }
 
+.campoDir {
+    width: 200px;
+    grid-column: 1 / -1;
+}
+.campoDir input {
+    width: 435px;
+}
 .campo input,
 .campo select {
     width: 200px;
@@ -176,8 +183,8 @@ nav {
 
 .contenedor-registro{
     width: 50%;
-    max-width: 900px;
-    margin: 40px auto;
+    max-width: 450px;
+    margin: 50px auto;
     padding: 30px;
     background-color: #111111;
     border: 1px solid #333333;
@@ -201,4 +208,5 @@ nav {
     font-size: 16px;
     font-weight: bold;
     cursor: pointer;
+    grid-column: 1 / -1;
 }
