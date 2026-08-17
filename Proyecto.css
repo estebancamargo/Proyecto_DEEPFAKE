@@ -155,3 +155,71 @@ nav {
     justify-content:space-between;
     background-color:  #141413;
 }
+.etiqueta {
+    color: #EB6154;
+    font-size: 12px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-bottom: 4px;
+}
+
+.subtitulo-seccion {
+    color: #EB6154;
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 1px;
+    margin-bottom: 16px;
+}
+
+.subtitulo-verde {
+    color: #7fbf8f;
+}
+
+.ley-tarjeta {
+    background-color: #0d0d0d;
+    border: 1px solid #2a2a2a;
+    border-left: 4px solid #EB6154;
+    border-radius: 8px;
+    padding: 16px;
+    margin-bottom: 12px;
+}
+
+.ley-tarjeta h3 {
+    color: white;
+    margin: 4px 0;
+}
+
+.ley-etiqueta {
+    color: #EB6154;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 11px;
+    margin: 0;
+}
+
+.paso {
+    display: flex;
+    gap: 14px;
+    align-items: flex-start;
+    margin-bottom: 18px;
+}
+
+.paso h3 {
+    color: white;
+    margin: 0 0 4px;
+    font-size: 15px;
+}
+
+.paso-numero {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #111;
+    border: 1px solid #7fbf8f;
+    color: #7fbf8f;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+}
