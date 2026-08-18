@@ -40,3 +40,24 @@ fetch("https://localhost:44309/WSDeepfake.asmx/WSListadoUsuarios", {
 .catch(error => {
     console.error("Error al cargar usuarios:", error);
 });
+
+const buscarNombre = document.getElementById("buscarNombre");
+
+buscarNombre.addEventListener("input", function () {
+
+    const texto = buscarNombre.value.toLowerCase();
+
+    const filas = document.querySelectorAll("#tablaUsuarios tbody tr");
+
+    filas.forEach(function (fila) {
+
+        const nombre = fila.cells[1].textContent.toLowerCase();
+
+        if (nombre.includes(texto)) {
+            fila.style.display = "";
+        } else {
+            fila.style.display = "none";
+        }
+
+    });
+});
