@@ -7,10 +7,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-
-
-
+    
 </head>
+
 <body>
 
 <div class="encabezado">
@@ -30,54 +29,54 @@
     <div class="contenedor-registro">
     
         <h2 class="tituloDos">Registra tus datos</h2>
-        <FORM>
+        <form id="formRegistro">
         <div class="fila">
             <div class="campo">
             <label>Nombre</label>
-            <input type="text">
+            <input type="text" id="nombre">
             </div>
             
             <div class="campo">
             <label>Apellido</label>
-            <input type="text">
+            <input type="text" id="apellido">
             </div>
         </div>
 
         <div class="fila"> 
             <div class="campoDir">
             <label>Correo Electronico</label>
-            <input type="email">    
+            <input type="email" id="correo">    
             </div>
 
         </div>
         <div class="fila">
             <div class="campo">
             <label>Genero</label>
-            <select name="genero">
+            <select name="genero" id="genero">
             <option value="">Seleccione su género</option>
-            <option value="hombre">Hombre</option>
-            <option value="mujer">Mujer</option>
+            <option value="Hombre">Hombre</option>
+            <option value="Mujer">Mujer</option>
             </select>
             </div>
             <div class="campo">
             <label>Direccion</label>
-            <input type="text">
+            <input type="text" id="direccion">
             </div>
         </div>
         <div class="fila"> 
             <div class="campo">
             <label>Cedula</label>
-            <input type="text">
+            <input type="text" id="cedula">
             </div>
 
             <div class="campo">
             <label>Celular</label>
-            <input type="text">
+            <input type="text" id="celular">
             </div>
         </div>
             
 
-        <button class="btn-registro">Registrarme</button>
+        <button type="submit" class="btn-registro">Registrarme</button>
     </FORM>
         
 
@@ -87,6 +86,6 @@
 
 </div>
 
-
+<script src="app.js"></script>
 </body>
 </html>
