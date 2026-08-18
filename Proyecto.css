@@ -282,3 +282,27 @@ nav {
         grid-template-columns: 1fr;
     }
 }
+
+@media (max-width: 768px) {
+    .ley-tarjeta {
+        padding: 12px;
+    }
+
+    .paso {
+        gap: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    .paso-numero {
+        width: 24px;
+        height: 24px;
+        font-size: 11px;
+    }
+}
+
+@media (max-width: 768px) {
+    .ejemplo {
+        flex-direction: column;
+    }
+}
