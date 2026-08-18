@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>DEEP FAKE</title>
+    <link rel="stylesheet" href="Admin.css">
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+
+</head>
+<body>
+
+<div class="encabezado">
+<a href="Proyecto.html" style="text-decoration: none;">
+<h2 style="color: #EB6154;"> DEEPFAKE </h2>
+</a>
+</div>
+
+<div class="titulo-admin">
+    <span>Panel de Administración</span>
+    <h2>Usuarios registrados</h2>
+    <p>Consulta y visualización de los usuarios registrados en el sistema</p>
+</div>
+
+<div class="contenedor-admin">
+
+    <div class="acciones">
+    <button class="btn-salir" onclick="window.location.href= 'Proyecto.html'">
+    ← Salir
+    </button>
+</div>
+
+    <table class="tablausuarios" id="tablaUsuarios">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Nombre</th>
+                <th>Apellido</th>
+                <th>Correo</th>
+                <th>Dirección</th>
+                <th>Documento</th>
+                <th>Género</th>
+                <th>Celular</th>
+            </tr>
+        </thead>
+
+        <tbody id="cuerpoTabla">
+        </tbody>
+    </table>
+
+</div>
+<script src="Admin.js"></script>
+</body>
+</html>
