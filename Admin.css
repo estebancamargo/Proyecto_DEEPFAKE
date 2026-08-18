@@ -1,0 +1,115 @@
+body {
+    background-color: #000000;
+    margin: 0;
+}
+.encabezado {
+    color: rgb(252, 251, 250);
+    display: flex;
+    padding: 14px 24px;
+    align-items: center;
+    justify-content:space-between;
+    background-color:  #141413;
+    margin: 0;
+}
+
+/* CONTENEDOR PRINCIPAL */
+.admin-container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 40px auto;
+}
+
+/* TITULO */
+.titulo-admin {
+    margin-bottom: 30px;
+}
+
+.titulo-admin span {
+    color: #f45b52;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.titulo-admin h2 {
+    color: white;
+    font-size: 32px;
+    margin: 8px 0;
+}
+
+.titulo-admin p {
+    color: #aaa;
+    font-size: 16px;
+    margin-top: 5px;
+}
+
+/* BOTON SALIR */
+.acciones {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 20px;
+}
+
+.btn-salir {
+    background: transparent;
+    color: #f45b52;
+    border: 1px solid #f45b52;
+    padding: 10px 22px;
+    border-radius: 6px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn-salir:hover {
+    background: #f45b52;
+    color: white;
+    box-shadow: 0 0 12px rgba(244, 91, 82, 0.5);
+}
+
+/* CONTENEDOR DE LA TABLA */
+.tabla-container {
+    background: #111;
+    border: 1px solid #292929;
+    border-radius: 10px;
+    padding: 15px;
+    overflow-x: auto;
+}
+
+/* TABLA */
+#tablaUsuarios {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+/* ENCABEZADOS */
+#tablaUsuarios th {
+    background: #f45b52;
+    color: white;
+    padding: 14px;
+    text-align: left;
+    font-size: 15px;
+}
+
+/* CELDAS */
+#tablaUsuarios td {
+    padding: 13px;
+    border-bottom: 1px solid #333;
+    color: #ddd;
+}
+
+/* FILAS */
+#tablaUsuarios tr {
+    background: #181818;
+    transition: 0.2s;
+}
+
+#tablaUsuarios tr:hover {
+    background: #242424;
+}
+
+/* PRIMERA COLUMNA */
+#tablaUsuarios td:first-child {
+    color: #f45b52;
+    font-weight: bold;
+}

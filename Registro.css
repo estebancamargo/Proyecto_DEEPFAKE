@@ -210,3 +210,27 @@ nav {
     cursor: pointer;
     grid-column: 1 / -1;
 }
+
+.admin {
+    display: inline-block;
+    padding: 10px 18px;
+    margin-left: 20px;
+
+    color: white;
+    background-color: transparent;
+
+    border: 1px solid #f45b52;
+    border-radius: 6px;
+
+    text-decoration: none;
+    font-family: Georgia, serif;
+    font-size: 15px;
+
+    transition: 0.3s;
+}
+
+.admin:hover {
+    background-color: #f45b52;
+    color: white;
+    box-shadow: 0 0 12px rgba(244, 91, 82, 0.5);
+}
